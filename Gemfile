@@ -38,6 +38,9 @@ gem 'thin'
 # Fantastic formatting of dates
  gem 'stamp'
  
+# Adding some awesome fonts!
+gem "font-awesome-rails"
+
 group :development, :test do
   #SIMMA DOWN NAH!
   gem 'quiet_assets'
