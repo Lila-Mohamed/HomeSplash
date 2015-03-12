@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Wayyyyy better than WeBrick
 gem 'thin'
 
+# Fantastic formatting of dates
+ gem 'stamp'
+ 
 group :development, :test do
   #SIMMA DOWN NAH!
   gem 'quiet_assets'
