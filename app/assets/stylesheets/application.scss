@@ -17,13 +17,23 @@
 html{
   font-family: American Typewriter; Arial; Verdana;
   font-size: 20px;
-  background-color: #EEF;
+  color: white;
 }
 
 
 body {
+  background: image-url("pretty.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+  background-size: cover;
+
   padding: 0;
   margin: 0;
+}
+
+.shadowed {
+  text-shadow: 2px 2px 0 #000;
 }
 
 div#footer {
@@ -42,3 +52,4 @@ div#footer {
   color: white;
   text-decoration: none;
 }
+
