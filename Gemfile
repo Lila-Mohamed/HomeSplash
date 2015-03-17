@@ -41,6 +41,9 @@ gem 'thin'
 # Adding some awesome fonts!
 gem "font-awesome-rails"
 
+#Beatimus printing
+gem 'awesome_print'
+
 group :development, :test do
   #SIMMA DOWN NAH!
   gem 'quiet_assets'
